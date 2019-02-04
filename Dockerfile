@@ -2,6 +2,7 @@ FROM node:alpine
 
 LABEL maintainer="nixxlab@gmail.com"
 
+EXPOSE 8080/tcp
 VOLUME /app
 
 WORKDIR /app
